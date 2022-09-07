@@ -1,0 +1,55 @@
+<div style="  position: relative;background: lightcyan;">
+	<div style="background:palegreen;display: flex;width: 2000px;height: 60px;">
+	<img src="/assets/download.jpg" style="width:40px;height:40px;padding:10px;border-radius: 50px">
+	<h1 style="font-family: fantasy; color: black;margin-bottom: 10px;">Home  |</h1>
+	<h1 style="font-family:fantasy;color: black;margin-bottom: 10px;">|  About  |</h1>
+	<h1 style="font-family:fantasy;-serif;color: black;margin-bottom: 10px;">|  Contact</h1>
+	</div>
+<button onclick="getElementById('demo').innerHTML=div('.image')" style="">Login</button>
+<p id="demo"></p>
+	<div class="image" style="display: !important;">
+	<form #login="ngForm" name="form" (ngSubmit)="submit(login)" >
+		<div style="padding-left: 20px; align-items: center;position: relative;padding-top: 20px;padding-bottom: 20px;opacity: 1;">
+			
+		<div class="op">
+			<label for="firstname" style="font-family: sans-serif;font-size: 20px;border-left: tomato;background: aliceblue;border-left-style: solid;width: 200px;text-anchor: middle;height: 20px;padding-right: 20px;">FirstName :</label>
+			<pre></pre>
+			<br>
+			<input name="fname" class="in" #name="ngModel" required minlength="2" maxlength="8" type="text" name="firstname" ngModel style="padding-left:20px;border-radius: 50px;" autofocus autocomplete="on">
+		</div>
+		<!-- <p *ngIf = "name.touched && name.invalid" style="text-decoration-color: darkred;color: darkred; padding-left: 0px;border-color: darkred;">Invalid Please Enter Valid Input!!!</p> -->
+		<pre></pre>
+		<br>
+		<div class="op">
+			<label for="lastname" style="font-family: sans-serif;font-size: 20px;border-left: tomato;background: aliceblue;border-left-style: solid;width: 200px;text-anchor: middle;height: 20px;padding-right: 20px;">LastName :</label>
+			<pre></pre>
+			<br>
+			<input class="in" type="text" name="lastname" style="padding-left:20px;border-radius: 50px;" autofocus autocomplete="on" ngModel>
+		</div>
+		<br>
+		<pre></pre>
+		<div class="op">
+			<label for="E-Mail" style="font-family: sans-serif;font-size: 20px;border-left: tomato;background: aliceblue;border-left-style: solid;width: 200px;text-anchor: middle;height: 20px;padding-right: 20px;">E-Mail :</label>
+			<pre></pre>
+			<br>
+			<input class="in" type="text" name="E-Mail" style="padding-left:20px;border-radius: 50px;" autofocus autocomplete="on" ngModel>	
+		</div>
+		<br>
+		<pre></pre>
+		<div class="op">
+			<label for="passwd" style="font-family: sans-serif;font-size: 20px;border-left: tomato;background: aliceblue;border-left-style: solid;width: 200px;text-anchor: middle;height: 20px;padding-right: 20px;">Password :</label>
+			<pre></pre>
+			<br>
+			<input class="in" type="password" name="passwd" style="padding-left:20px;border-radius: 50px;" autofocus autocomplete="on" ngModel>
+		</div>
+		<br>
+		<pre></pre>
+
+		<div>
+			<input type="submit" value="submit" class="button">
+		</div>
+</div>
+	</form>
+</div>
+	<meta charset="utf-8" http-equiv="submit()" *ngIf="name.touched && name.valid" content="5;https://www.anits.edu.in"/>
+</div>

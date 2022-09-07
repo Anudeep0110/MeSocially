@@ -1,0 +1,16 @@
+<div style="background: lightgoldenrodyellow;position: relative;object-position: left;border-radius: 50px;display: flex;justify-content: left;" class="d">
+	<p style="padding-left: 10px;font-family: sans-serif ;font-size: 20px;">To Display the Employee1 Details : </p>
+<button type="button" name="button" (click)='getInfoFromClass1()' style="background: blanchedalmond;width: 70px;height: 40px;border-radius: 30px;font-family: cursive;font-size: 20px;padding-top: 10px;" class="bt">Emp1</button>
+<ul class="list">
+	<li *ngFor="let info of r1" class="list-group">{{info}}</li>
+</ul>
+</div>
+<pre></pre>
+<div style="background: lightgoldenrodyellow;padding-left: 850px;padding-right: 750px;display: flex;">
+	<p style="padding-left: 10px;font-family: sans-serif ;font-size: 20px;">To Display the Employee2 Details</p>
+<button type="button" name="button" (click)='getInfoFromClass2()' style="background: blanchedalmond;width: 100px;height: 50px;border-radius: 50px;font-family: cursive;font-size: 20px;" class="bt">Emp2</button>
+<ul class="list">
+	<li *ngFor="let info of r2" class="list-group">{{info}}</li>
+</ul>
+<pre></pre>
+</div>

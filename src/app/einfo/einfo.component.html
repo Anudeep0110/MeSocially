@@ -1,0 +1,30 @@
+<form #frm="ngForm" (ngSubmit)="updateData(frm)">
+	<div>
+		<input type="text" name="Location" value="" ngModel>
+		<button name="button" type="submit">UPDATE</button>
+	</div>
+</form>
+
+<br>
+<br>
+<div>
+<button name="button" type="button" (click)='getInfoFromClass01()' class="bt">EMP1</button>
+<ul class="ull">
+	<li *ngFor="let info of r1">{{info}}</li>
+</ul>
+</div>
+<pre></pre>
+<div>
+<button name="button" type="button" (click)='getInfoFromClass02()' class="bt">EMP2</button>
+<ul class="ull">
+	<li *ngFor="let info of r2">{{info}}</li>
+</ul>
+</div>
+<pre></pre>
+<div>
+<button name="button" type="button" (click)='getInfoFromClass03()' class="bt">EMP3</button>
+<ul class="ull">
+	<li *ngFor="let info of r3">{{info}}</li>
+</ul>
+</div>
+
